@@ -1,3 +1,4 @@
-import { redis} from '@upstadh/redis';
+import { Redis } from "@upstash/redis";
 
-export const redis = redis.fromEnv()
+// Use the Redis class properly with a capital "R" as it's the correct class name.
+export const redis = Redis.fromEnv();
